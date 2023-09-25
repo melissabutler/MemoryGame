@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap" rel="stylesheet">
+  </head>
+<body>   
+  <div class="container">
+
+    <div id="title" class="item item-1">Memory Game</div>
+
+    <div id ="description" class="item item-2">Flip the cards to find their match!</div>
+
+ 
+    <div class="item item-3 scores">Time
+      <div id="currentTime">-</div>
+    </div>
+    <div class="item item-4 scores">Best Time
+        <div id="bestTime">-</div>
+      </div>
+
+    <div id="buttons" class="item item-5">
+      <button id="startGame">Start!</button>
+    </div>
+
+    <!-- THE GAME STARTS HERE DO NOT TOUCH -->
+    <div id="gameHere" class="item item-6">
+      <div id="game" class="item item-6">
+      </div>
+    </div>
+
+    <div id="restartButton"></div>
+  </div>
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
